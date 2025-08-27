@@ -1,31 +1,25 @@
-# 🤖 Telegram Selfbot
+# MultiUser Adbot Manager
 
-A fully automated Telegram selfbot for quick group creation, crypto address sharing, blocking users, and more.
-
-> ⚠️ Only the authorized user (ID: 6346769377) can control this bot.
+A Telegram bot to manage multiple accounts for forwarding messages, adding market links, and automatically updating account **name** and **bio** after login.
 
 ---
 
-## 🚀 Features
+## Features
 
-| Command      | Description                           |
-|--------------|---------------------------------------|
-| `.mm`        | Create MM group & send group link     |
-| `.block`     | Block user in private chat            |
-| `.unblock`   | Unblock user                          |
-| `.lock`      | Lock group (disable messages)         |
-| `.clear`     | Clear chat                            |
-| `.close`     | Leave and delete group                |
-| `.rec`       | Auto-reply after receiving payment    |
-| `.userinfo`  | Get user info (name, username, ID)    |
-| `.id`        | Get ID of user/chat                   |
-| `.btc` `.eth` `.ton` `.sol` `.ltc` `.usdt` `.upi` | Drop crypto wallet or UPI instantly |
+- Multi-account support
+- Login with **API ID**, **API Hash**, and phone number
+- Automatic 2FA support
+- Forward messages from one channel/message to multiple channels
+- Add, list, and remove market links
+- Set custom forwarding interval
+- Automatic update of account **name** and **bio** after login
+- Colored terminal output for better monitoring
 
 ---
 
-## 🔐 Setup
+## Requirements
 
-### 1. Install requirements
+Install Python 3.11+ and the required packages:
 
 ```bash
 pip install -r requirements.txt
